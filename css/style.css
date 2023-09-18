@@ -1,0 +1,41 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+header {
+    align-items: center;
+    color: bisque;
+    background-color: #006f60;
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+header h1{
+    margin: 0
+
+}
+header li {
+    display: inline-block;
+    list-style: none;
+} header a {
+    color: bisque;
+    display: inline-block;
+}
+header a:hover {
+    color: coral;
+}
+#stock-image {
+    height: 100%;
+    width: 100%;
+}
+#contact form {
+    border: solid 5px #006f60;
+    Border-radius: 0%;
+    position: absolute;
+    padding: 20px;
+    margin: 0 auto
+}
+
+
+
