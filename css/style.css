@@ -23,7 +23,7 @@ header li {
     display: inline-block;
 }
 header a:hover {
-    color: coral;
+    color: rgb(80, 255, 235);
 }
 #stock-image {
     height: 100%;
