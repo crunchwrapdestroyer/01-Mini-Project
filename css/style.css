@@ -7,17 +7,22 @@ header {
     color: bisque;
     background-color: #006f60;
     display:flex;
-    padding: 10px;
+    padding: 0 20px;
     justify-content: space-between;
 }
 
 header h1{
-    margin: 0
+    margin-left: 20px;
 
+}
+header nav ul {
+    margin-right: 20px;
 }
 header li {
     display: inline-block;
     list-style: none;
+    padding: 0 10px;
+
 } header a {
     color: bisque;
     display: inline-block;
@@ -31,11 +36,14 @@ header a:hover {
 }
 #contact form {
     border: solid 5px #006f60;
-    Border-radius: 0%;
-    position: absolute;
+    /* position: absolute; */
     padding: 20px;
-    margin: 0 auto
+    margin: 0 auto;
+    width: 50vw;
+    
 }
-
+#contact {
+    text-align: center;
+}
 
 
